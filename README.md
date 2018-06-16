@@ -52,3 +52,19 @@ git checkout -b shutdown_patterns ordered_actor_termination
 ````
 sbt "runMain com.github.janikibichi.learnakka.patterns.ShutdownPatternApp"
 ````
+<br><br>
+- Branch out to explore scheduling periodic messages to actors
+````
+git checkout -b periodic_messages_to_actors shutdown_patterns
+````
+- Add the Akka stream scheduler dependency:
+````
+libraryDependencies += "com.enragedginger" %% "akka-quartz-scheduler" % "1.6.0-akka-2.4.x"
+````
+- Create actor with scheduler:<b>com.github.janikibichi.learnakka.patterns.MessageAkkaScheduler.scala</b>
+- Create actor using quartz scheduler:<b>com.github.janikibichi.learnakka.patterns.MessageQuartzScheduler.scala</b>
+- Create the app to run the code:<b>com.github.janikibichi.learnakka.patterns.SchedulingMessagesApp.scala</b>
+- [Run the app]()
+````
+sbt "runMain com.github.janikibichi.learnakka.patterns.SchedulingMessageApp"
+````
