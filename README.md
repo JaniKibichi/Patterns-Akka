@@ -38,3 +38,17 @@ git checkout -b ordered_actor_termination master_slave_work_pulling
 ````
 sbt "runMain com.github.janikibichi.learnakka.patterns.OrderedTerminationApp"
 ````
+<br><br>
+- Branch out to explore shutdown patterns in akka
+````
+git checkout -b shutdown_patterns ordered_actor_termination
+````
+- Create a file to register actors in a set: <b>com.github.janikibichi.learnakka.patterns.Reaper.scala</b>
+- Create a file to register actors in a set: <b>com.github.janikibichi.learnakka.patterns.ReaperAwareActor.scala</b>
+- Create actor that simulates working: <b>com.github.janikibichi.learnakka.patterns.ShutdownPatternWorker.scala</b>
+- Create a master actor to create child actors:<b>com.github.janikibichi.learnakka.patterns.ShutDownPatternMaster.scala</b>
+- Create file to test shutdown actor:<b>com.github.janikibichi.learnakka.patterns.ShutdownPatternApp.scala</b>
+- [Run the app]()
+````
+sbt "runMain com.github.janikibichi.learnakka.patterns.ShutdownPatternApp"
+````
