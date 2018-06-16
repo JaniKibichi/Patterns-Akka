@@ -6,26 +6,26 @@
         <counts>
           <entry key="md" value="1" />
           <entry key="sbt" value="1" />
-          <entry key="scala" value="4" />
+          <entry key="scala" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
-          <entry key="Scala" value="4" />
+          <entry key="Scala" value="9" />
           <entry key="sbt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="79" />
-          <entry key="scala" value="100" />
+          <entry key="md" value="293" />
+          <entry key="scala" value="286" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="79" />
-          <entry key="Scala" value="100" />
+          <entry key="Markdown" value="293" />
+          <entry key="Scala" value="286" />
         </counts>
       </usages-collector>
     </session>
