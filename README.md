@@ -73,3 +73,14 @@ sbt "runMain com.github.janikibichi.learnakka.patterns.SchedulingMessageApp"
 ````
 git checkout -b throttling_messages_to_actors periodic_messages_to_actors
 ````
+- Add the dependency to build.sbt
+````
+libraryDependencies += "com.typesafe.akka" %% "akka-contrib" % "2.4.4"
+````
+- Create receiver actor:<b>com.github.janikibichi.learnakka.patterns.EasyToOverWhelm.scala</b>
+- Actor to send messages we want to throttle:<b>com.github.janikibichi.learnakka.patterns.ReallyFastSender.scala</b>
+- Create the app to throttle: <b>com.github.janikibichi.learnakka.patterns.ThrottlingApp.scala</b>
+- [Run the App to see throttling:]()
+````
+sbt "runMain com.github.janikibichi.learnakka.patterns.ThrottlingApp"
+````
