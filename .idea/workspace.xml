@@ -2,60 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c416070-072f-4c1d-b28b-a23f3c5db229" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_cluster_2_11_2_4_4_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_cluster_tools_2_11_2_4_4_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_contrib_2_11_2_4_4_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_persistence_2_11_2_4_4_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_protobuf_2_11_2_4_4_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_remote_2_11_2_4_4_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_3_10_3_Final_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_uncommons_maths_uncommons_maths_1_2_2a_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/EasyToOverWhelm.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/ReallyFastSender.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/ThrottlingApp.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/patterns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/patterns.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/BalancedWorker.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/BalancingWorkApp.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/usage.statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/usage.statistics.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$056f46a78548a6869fb0$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$056f46a78548a6869fb0.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$056f46a78548a6869fb0.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$1f61603c405c26f01655$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$1f61603c405c26f01655.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$1f61603c405c26f01655.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$43bc0d44eba21f548b7e$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$43bc0d44eba21f548b7e.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$43bc0d44eba21f548b7e.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$49986cd8631f3e624cb5$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$49986cd8631f3e624cb5.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$49986cd8631f3e624cb5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$77673d8b0b10aa180d25$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$77673d8b0b10aa180d25.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$77673d8b0b10aa180d25.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/patterns-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/patterns-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/patterns-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/patterns-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patterns-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patterns-build-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patterns-build-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patterns-build-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patterns-build-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patterns-build-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patterns-build-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patterns-build-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patterns-build-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patterns-build-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patterns-build-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patterns-build-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patterns-build-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patterns-build-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patterns-build-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patterns-build-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patterns-build-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patterns-build-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patterns-build-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patterns-build-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patterns-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-patterns-build-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -77,8 +28,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="493">
-                <caret line="84" column="1" lean-forward="true" selection-start-line="84" selection-end-line="84" selection-end-column="69" />
+              <first_editor relative-caret-position="421">
+                <caret line="99" column="6" lean-forward="true" selection-start-line="99" selection-end-line="99" selection-end-column="80" />
               </first_editor>
               <second_editor />
             </state>
@@ -86,44 +37,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/ThrottlingApp.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/BalancingWorkApp.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="288">
+              <caret line="16" column="31" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="31" />
               <folding>
                 <element signature="e#51#89#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/ReallyFastSender.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-              <folding>
-                <element signature="e#51#100#0" expanded="true" />
-                <element signature="e#222#247#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/EasyToOverWhelm.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="44" selection-start-column="8" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.sbt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="70" selection-start-line="10" selection-start-column="70" selection-end-line="10" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -172,6 +92,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/EasyToOverWhelm.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/ReallyFastSender.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/ThrottlingApp.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/BalancedWorker.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/BalancingWorkApp.scala" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -191,7 +113,7 @@
         <observation name="false" value="33.0" />
       </dailyData>
       <dailyData date="16-6-2018">
-        <observation name="false" value="144.0" />
+        <observation name="false" value="160.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:liftShorterClasses">
@@ -199,7 +121,7 @@
         <observation name="UNDEFINED" value="33.0" />
       </dailyData>
       <dailyData date="16-6-2018">
-        <observation name="UNDEFINED" value="144.0" />
+        <observation name="UNDEFINED" value="160.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:middleMatching">
@@ -207,7 +129,7 @@
         <observation name="false" value="33.0" />
       </dailyData>
       <dailyData date="16-6-2018">
-        <observation name="false" value="144.0" />
+        <observation name="false" value="160.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:nonGeneric">
@@ -215,7 +137,7 @@
         <observation name="UNDEFINED" value="33.0" />
       </dailyData>
       <dailyData date="16-6-2018">
-        <observation name="UNDEFINED" value="144.0" />
+        <observation name="UNDEFINED" value="160.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_inResolveScope">
@@ -224,8 +146,8 @@
         <observation name="true" value="3.0" />
       </dailyData>
       <dailyData date="16-6-2018">
-        <observation name="false" value="120.0" />
-        <observation name="true" value="24.0" />
+        <observation name="false" value="134.0" />
+        <observation name="true" value="26.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_openedInEditor">
@@ -233,7 +155,7 @@
         <observation name="false" value="33.0" />
       </dailyData>
       <dailyData date="16-6-2018">
-        <observation name="false" value="142.0" />
+        <observation name="false" value="158.0" />
         <observation name="true" value="2.0" />
       </dailyData>
     </factor>
@@ -242,7 +164,7 @@
         <observation name="false" value="33.0" />
       </dailyData>
       <dailyData date="16-6-2018">
-        <observation name="false" value="142.0" />
+        <observation name="false" value="158.0" />
         <observation name="true" value="2.0" />
       </dailyData>
     </factor>
@@ -251,7 +173,7 @@
         <observation name="false" value="33.0" />
       </dailyData>
       <dailyData date="16-6-2018">
-        <observation name="false" value="142.0" />
+        <observation name="false" value="158.0" />
         <observation name="true" value="2.0" />
       </dailyData>
     </factor>
@@ -260,7 +182,7 @@
         <observation name="false" value="33.0" />
       </dailyData>
       <dailyData date="16-6-2018">
-        <observation name="false" value="144.0" />
+        <observation name="false" value="160.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:templates">
@@ -268,7 +190,7 @@
         <observation name="false" value="33.0" />
       </dailyData>
       <dailyData date="16-6-2018">
-        <observation name="false" value="144.0" />
+        <observation name="false" value="160.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:accessible">
@@ -276,7 +198,7 @@
         <observation name="UNDEFINED" value="33.0" />
       </dailyData>
       <dailyData date="16-6-2018">
-        <observation name="UNDEFINED" value="144.0" />
+        <observation name="UNDEFINED" value="160.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:expectedType">
@@ -284,7 +206,7 @@
         <observation name="UNDEFINED" value="33.0" />
       </dailyData>
       <dailyData date="16-6-2018">
-        <observation name="UNDEFINED" value="144.0" />
+        <observation name="UNDEFINED" value="160.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:kind">
@@ -292,7 +214,7 @@
         <observation name="UNDEFINED" value="33.0" />
       </dailyData>
       <dailyData date="16-6-2018">
-        <observation name="UNDEFINED" value="144.0" />
+        <observation name="UNDEFINED" value="160.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_groovyReferenceListWeigher">
@@ -300,7 +222,7 @@
         <observation name="unknown" value="33.0" />
       </dailyData>
       <dailyData date="16-6-2018">
-        <observation name="unknown" value="144.0" />
+        <observation name="unknown" value="160.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_javaInheritance">
@@ -309,8 +231,8 @@
         <observation name="null" value="30.0" />
       </dailyData>
       <dailyData date="16-6-2018">
-        <observation name="false" value="22.0" />
-        <observation name="null" value="122.0" />
+        <observation name="false" value="24.0" />
+        <observation name="null" value="136.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_referenceList">
@@ -318,7 +240,7 @@
         <observation name="unknown" value="33.0" />
       </dailyData>
       <dailyData date="16-6-2018">
-        <observation name="unknown" value="144.0" />
+        <observation name="unknown" value="160.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:recursion">
@@ -326,7 +248,7 @@
         <observation name="UNDEFINED" value="33.0" />
       </dailyData>
       <dailyData date="16-6-2018">
-        <observation name="UNDEFINED" value="144.0" />
+        <observation name="UNDEFINED" value="160.0" />
       </dailyData>
     </factor>
     <factor id="completionFinishedType">
@@ -336,8 +258,8 @@
         <observation name="typedSelect" value="6.0" />
       </dailyData>
       <dailyData date="16-6-2018">
-        <observation name="cancelled" value="609.0" />
-        <observation name="explicitSelect" value="113.0" />
+        <observation name="cancelled" value="747.0" />
+        <observation name="explicitSelect" value="129.0" />
         <observation name="typedSelect" value="31.0" />
       </dailyData>
     </factor>
@@ -346,7 +268,7 @@
         <observation name="BASIC" value="38.0" />
       </dailyData>
       <dailyData date="16-6-2018">
-        <observation name="BASIC" value="185.0" />
+        <observation name="BASIC" value="204.0" />
       </dailyData>
     </factor>
     <factor id="completionUsage">
@@ -354,7 +276,7 @@
         <observation name="count" value="110.0" />
       </dailyData>
       <dailyData date="16-6-2018">
-        <observation name="count" value="753.0" />
+        <observation name="count" value="907.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:explicitProximity">
@@ -367,7 +289,7 @@
       </dailyData>
       <dailyData date="16-6-2018">
         <observation name="average" value="0.0" />
-        <observation name="count" value="287.0" />
+        <observation name="count" value="319.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -383,7 +305,7 @@
       </dailyData>
       <dailyData date="16-6-2018">
         <observation name="average" value="0.0" />
-        <observation name="count" value="287.0" />
+        <observation name="count" value="319.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -394,7 +316,7 @@
         <observation name="UNDEFINED" value="33.0" />
       </dailyData>
       <dailyData date="16-6-2018">
-        <observation name="UNDEFINED" value="144.0" />
+        <observation name="UNDEFINED" value="160.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:nameEnd">
@@ -402,7 +324,7 @@
         <observation name="UNDEFINED" value="33.0" />
       </dailyData>
       <dailyData date="16-6-2018">
-        <observation name="UNDEFINED" value="144.0" />
+        <observation name="UNDEFINED" value="160.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:position">
@@ -414,11 +336,11 @@
         <observation name="variance" value="0.0" />
       </dailyData>
       <dailyData date="16-6-2018">
-        <observation name="average" value="0.006969" />
-        <observation name="count" value="287.0" />
+        <observation name="average" value="0.00627" />
+        <observation name="count" value="319.0" />
         <observation name="max" value="1.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="0.004707" />
+        <observation name="variance" value="0.004467" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prefix">
@@ -430,11 +352,11 @@
         <observation name="variance" value="248893.642108" />
       </dailyData>
       <dailyData date="16-6-2018">
-        <observation name="average" value="-548.020906" />
-        <observation name="count" value="287.0" />
+        <observation name="average" value="-550.840125" />
+        <observation name="count" value="319.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="-1153.0" />
-        <observation name="variance" value="290493.220088" />
+        <observation name="variance" value="292596.721126" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:priority">
@@ -447,7 +369,7 @@
       </dailyData>
       <dailyData date="16-6-2018">
         <observation name="average" value="0.0" />
-        <observation name="count" value="287.0" />
+        <observation name="count" value="319.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -462,11 +384,11 @@
         <observation name="variance" value="0.0" />
       </dailyData>
       <dailyData date="16-6-2018">
-        <observation name="average" value="3.48432" />
-        <observation name="count" value="287.0" />
+        <observation name="average" value="3.134796" />
+        <observation name="count" value="319.0" />
         <observation name="max" value="300.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="754.419544" />
+        <observation name="variance" value="716.203169" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_knownElement">
@@ -479,7 +401,7 @@
       </dailyData>
       <dailyData date="16-6-2018">
         <observation name="average" value="0.0" />
-        <observation name="count" value="287.0" />
+        <observation name="count" value="319.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -494,11 +416,11 @@
         <observation name="variance" value="0.0" />
       </dailyData>
       <dailyData date="16-6-2018">
-        <observation name="average" value="0.027875" />
-        <observation name="count" value="287.0" />
+        <observation name="average" value="0.025079" />
+        <observation name="count" value="319.0" />
         <observation name="max" value="2.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="0.043073" />
+        <observation name="variance" value="0.040895" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_samePsiMember">
@@ -510,11 +432,11 @@
         <observation name="variance" value="0.0" />
       </dailyData>
       <dailyData date="16-6-2018">
-        <observation name="average" value="0.013937" />
-        <observation name="count" value="287.0" />
+        <observation name="average" value="0.012539" />
+        <observation name="count" value="319.0" />
         <observation name="max" value="2.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="0.025998" />
+        <observation name="variance" value="0.024671" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:query_length">
@@ -527,7 +449,7 @@
       </dailyData>
       <dailyData date="16-6-2018">
         <observation name="average" value="0.0" />
-        <observation name="count" value="287.0" />
+        <observation name="count" value="319.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -542,11 +464,11 @@
         <observation name="variance" value="4.530054" />
       </dailyData>
       <dailyData date="16-6-2018">
-        <observation name="average" value="7.216028" />
-        <observation name="count" value="287.0" />
+        <observation name="average" value="7.225705" />
+        <observation name="count" value="319.0" />
         <observation name="max" value="11.0" />
         <observation name="min" value="3.0" />
-        <observation name="variance" value="5.004925" />
+        <observation name="variance" value="5.035388" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:sameWords">
@@ -554,7 +476,7 @@
         <observation name="UNDEFINED" value="33.0" />
       </dailyData>
       <dailyData date="16-6-2018">
-        <observation name="UNDEFINED" value="144.0" />
+        <observation name="UNDEFINED" value="160.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:shorter">
@@ -562,7 +484,7 @@
         <observation name="UNDEFINED" value="33.0" />
       </dailyData>
       <dailyData date="16-6-2018">
-        <observation name="UNDEFINED" value="144.0" />
+        <observation name="UNDEFINED" value="160.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:simple">
@@ -570,7 +492,7 @@
         <observation name="UNDEFINED" value="33.0" />
       </dailyData>
       <dailyData date="16-6-2018">
-        <observation name="UNDEFINED" value="144.0" />
+        <observation name="UNDEFINED" value="160.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:sorter">
@@ -583,7 +505,7 @@
       </dailyData>
       <dailyData date="16-6-2018">
         <observation name="average" value="1.0" />
-        <observation name="count" value="287.0" />
+        <observation name="count" value="319.0" />
         <observation name="max" value="1.0" />
         <observation name="min" value="1.0" />
         <observation name="variance" value="0.0" />
@@ -594,7 +516,7 @@
         <observation name="UNDEFINED" value="33.0" />
       </dailyData>
       <dailyData date="16-6-2018">
-        <observation name="UNDEFINED" value="144.0" />
+        <observation name="UNDEFINED" value="160.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:stats">
@@ -606,11 +528,11 @@
         <observation name="variance" value="5038857.090294" />
       </dailyData>
       <dailyData date="16-6-2018">
-        <observation name="average" value="1393.351917" />
-        <observation name="count" value="287.0" />
+        <observation name="average" value="1378.965517" />
+        <observation name="count" value="319.0" />
         <observation name="max" value="10000.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="9999124.0121" />
+        <observation name="variance" value="10035870.361504" />
       </dailyData>
     </factor>
     <factor id="itemPosition">
@@ -618,7 +540,7 @@
         <observation name="0" value="27.0" />
       </dailyData>
       <dailyData date="16-6-2018">
-        <observation name="0" value="112.0" />
+        <observation name="0" value="128.0" />
         <observation name="1" value="1.0" />
       </dailyData>
     </factor>
@@ -628,7 +550,7 @@
         <observation name="withMnemonics" value="0.0" />
       </dailyData>
       <dailyData date="16-6-2018">
-        <observation name="total" value="34.0" />
+        <observation name="total" value="40.0" />
         <observation name="withMnemonics" value="0.0" />
       </dailyData>
     </factor>
@@ -641,12 +563,12 @@
         <observation name="4" value="3.0" />
       </dailyData>
       <dailyData date="16-6-2018">
-        <observation name="0" value="65.0" />
-        <observation name="1" value="14.0" />
-        <observation name="2" value="12.0" />
-        <observation name="3" value="11.0" />
-        <observation name="4" value="10.0" />
-        <observation name="5" value="1.0" />
+        <observation name="0" value="73.0" />
+        <observation name="1" value="16.0" />
+        <observation name="2" value="13.0" />
+        <observation name="3" value="13.0" />
+        <observation name="4" value="12.0" />
+        <observation name="5" value="2.0" />
       </dailyData>
     </factor>
     <factor id="timeBetweenTyping">
@@ -655,8 +577,8 @@
         <observation name="count" value="19.0" />
       </dailyData>
       <dailyData date="16-6-2018">
-        <observation name="average" value="273.483607" />
-        <observation name="count" value="122.0" />
+        <observation name="average" value="276.503817" />
+        <observation name="count" value="131.0" />
       </dailyData>
     </factor>
   </component>
@@ -745,7 +667,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1529179849151" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1529183106743" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -769,7 +691,7 @@
       </Profilers>
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1529179849152" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1529183106745" />
       </method>
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -1096,10 +1018,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/BalancedWorker.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="70" selection-start-line="10" selection-start-column="70" selection-end-line="10" selection-end-column="70" />
+        <state relative-caret-position="270">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/ThrottlingApp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="e#51#89#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1121,10 +1053,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/ThrottlingApp.scala">
+    <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="20" />
+        <state relative-caret-position="180">
+          <caret line="10" column="70" selection-start-line="10" selection-start-column="70" selection-end-line="10" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/BalancingWorkApp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="31" />
           <folding>
             <element signature="e#51#89#0" expanded="true" />
           </folding>
@@ -1134,8 +1073,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="493">
-            <caret line="84" column="1" lean-forward="true" selection-start-line="84" selection-end-line="84" selection-end-column="69" />
+          <first_editor relative-caret-position="421">
+            <caret line="99" column="6" lean-forward="true" selection-start-line="99" selection-end-line="99" selection-end-column="80" />
           </first_editor>
           <second_editor />
         </state>

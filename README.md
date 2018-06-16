@@ -84,3 +84,18 @@ libraryDependencies += "com.typesafe.akka" %% "akka-contrib" % "2.4.4"
 ````
 sbt "runMain com.github.janikibichi.learnakka.patterns.ThrottlingApp"
 ````
+<br><br>
+- Branch out to explore balancing workload across actors
+````
+git checkout -b balance_workload_across_actors throttling_messages_to_actors
+````
+- Create a file: <b>com.github.janikibichi.learnakka.patterns.BalancedWorker.scala</b>
+- Create the balancing work app:<b>com.github.janikibichi.learnakka.patterns.BalancingWorkApp.scala</b>
+- Run the app with the BalancingDispatcher 
+````
+sbt "runMain com.github.janikibichi.learnakka.patterns.BalancingDispatcherApp"
+````
+- Run the app with the SmallestMailbox 
+````
+sbt "runMain com.github.janikibichi.learnakka.patterns.SmallestMailboxRouterApp"
+````
