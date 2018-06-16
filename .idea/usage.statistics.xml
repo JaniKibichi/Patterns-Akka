@@ -5,27 +5,29 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="1" />
-          <entry key="sbt" value="1" />
-          <entry key="scala" value="15" />
+          <entry key="sbt" value="2" />
+          <entry key="scala" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
-          <entry key="Scala" value="15" />
-          <entry key="sbt" value="1" />
+          <entry key="Scala" value="18" />
+          <entry key="sbt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="439" />
-          <entry key="scala" value="431" />
+          <entry key="md" value="695" />
+          <entry key="sbt" value="2" />
+          <entry key="scala" value="508" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="439" />
-          <entry key="Scala" value="431" />
+          <entry key="Markdown" value="695" />
+          <entry key="Scala" value="508" />
+          <entry key="sbt" value="2" />
         </counts>
       </usages-collector>
     </session>
