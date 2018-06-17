@@ -124,3 +124,17 @@ git checkout -b countdownlatch_pattern aggregator_pattern
 ````
 sbt "runMain com.github.janikibichi.learnakka.patterns.CountDownLatchApp"
 ````
+<br><br>
+- Branch out to explore the finite state machine
+````
+git checkout -b finite_state_machine countdownlatch_pattern
+````
+- Create the file: <b>com.github.janikibichi.learnakka.patterns.FSMChangeSubscriber.scala</b>
+- Create model classes file: <b>com.github.janikibichi.learnakka.patterns.TrafficLightsFSM.scala</b>
+- Create file:<b>com.github.janikibichi.learnakka.patterns.FSMApp.scala</b>
+- [Run the App:]()
+````
+sbt "runMain com.github.janikibichi.learnakka.patterns.FSMApp"
+````
+
+
