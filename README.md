@@ -95,7 +95,20 @@ git checkout -b balance_workload_across_actors throttling_messages_to_actors
 ````
 sbt "runMain com.github.janikibichi.learnakka.patterns.BalancingDispatcherApp"
 ````
-- Run the app with the SmallestMailbox 
+- [Run the app with the SmallestMailbox]() 
 ````
 sbt "runMain com.github.janikibichi.learnakka.patterns.SmallestMailboxRouterApp"
+````
+<br><br>
+- Branch out to explore the aggregator pattern
+````
+git checkout -b aggregator_pattern balance_workload_across_actors
+````
+- Create file:<b>com.github.janikibichi.learnakka.patterns.SocialMediaHandler.scala<b/>
+- Create file: <b>com.github.janikibichi.learnakka.patterns.SocialMediaAggregator.scala</b>
+- Create file:<b>com.github.janikibichi.learnakka.patterns.SocialMediaStalker.scala</b>
+- Create file:<b>com.github.janikibichi.learnakka.patterns.AggregatorPatternApp.scala</b>
+- Run the [aggregator pattern app]()
+````
+sbt "runMain com.github.janikibichi.learnakka.patterns.AggregatorPatternApp"
 ````

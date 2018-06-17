@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c416070-072f-4c1d-b28b-a23f3c5db229" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/BalancedWorker.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/BalancingWorkApp.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/AggregatorPatternApp.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/SocialMediaAggregator.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/SocialMediaHandler.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/SocialMediaStalker.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/usage.statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/usage.statistics.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
@@ -24,12 +26,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="421">
-                <caret line="99" column="6" lean-forward="true" selection-start-line="99" selection-end-line="99" selection-end-column="80" />
+              <first_editor relative-caret-position="475">
+                <caret line="112" column="5" selection-start-line="112" selection-end-line="112" selection-end-column="76" />
               </first_editor>
               <second_editor />
             </state>
@@ -37,12 +39,45 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/BalancingWorkApp.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/SocialMediaStalker.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="94" selection-start-line="8" selection-start-column="94" selection-end-line="8" selection-end-column="94" />
+              <folding>
+                <element signature="e#51#116#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/AggregatorPatternApp.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="11" selection-start-column="11" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/SocialMediaAggregator.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="30" column="96" selection-start-line="30" selection-start-column="96" selection-end-line="30" selection-end-column="96" />
+              <folding>
+                <element signature="e#51#112#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/SocialMediaHandler.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
-              <caret line="16" column="31" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="31" />
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
-                <element signature="e#51#89#0" expanded="true" />
+                <element signature="e#51#90#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,7 +129,12 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/ThrottlingApp.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/BalancedWorker.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/BalancingWorkApp.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/SocialMediaPattern.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/SocialMediaAggregator.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/SocialMediaStalker.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/AggregatorPatternApp.scala" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/SocialMediaHandler.scala" />
       </list>
     </option>
   </component>
@@ -115,6 +155,9 @@
       <dailyData date="16-6-2018">
         <observation name="false" value="160.0" />
       </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="false" value="30.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:liftShorterClasses">
       <dailyData date="15-6-2018">
@@ -122,6 +165,9 @@
       </dailyData>
       <dailyData date="16-6-2018">
         <observation name="UNDEFINED" value="160.0" />
+      </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="UNDEFINED" value="30.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:middleMatching">
@@ -131,6 +177,9 @@
       <dailyData date="16-6-2018">
         <observation name="false" value="160.0" />
       </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="false" value="30.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:nonGeneric">
       <dailyData date="15-6-2018">
@@ -138,6 +187,9 @@
       </dailyData>
       <dailyData date="16-6-2018">
         <observation name="UNDEFINED" value="160.0" />
+      </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="UNDEFINED" value="30.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_inResolveScope">
@@ -149,6 +201,10 @@
         <observation name="false" value="134.0" />
         <observation name="true" value="26.0" />
       </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="false" value="26.0" />
+        <observation name="true" value="4.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:prox_openedInEditor">
       <dailyData date="15-6-2018">
@@ -157,6 +213,9 @@
       <dailyData date="16-6-2018">
         <observation name="false" value="158.0" />
         <observation name="true" value="2.0" />
+      </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="false" value="30.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameDirectory">
@@ -167,6 +226,9 @@
         <observation name="false" value="158.0" />
         <observation name="true" value="2.0" />
       </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="false" value="30.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameLogicalRoot">
       <dailyData date="15-6-2018">
@@ -176,6 +238,9 @@
         <observation name="false" value="158.0" />
         <observation name="true" value="2.0" />
       </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="false" value="30.0" />
+      </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sdkOrLibrary">
       <dailyData date="15-6-2018">
@@ -183,6 +248,10 @@
       </dailyData>
       <dailyData date="16-6-2018">
         <observation name="false" value="160.0" />
+      </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="false" value="29.0" />
+        <observation name="true" value="1.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:templates">
@@ -192,6 +261,9 @@
       <dailyData date="16-6-2018">
         <observation name="false" value="160.0" />
       </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="false" value="30.0" />
+      </dailyData>
     </factor>
     <factor id="categoricalFeature:accessible">
       <dailyData date="15-6-2018">
@@ -199,6 +271,9 @@
       </dailyData>
       <dailyData date="16-6-2018">
         <observation name="UNDEFINED" value="160.0" />
+      </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="UNDEFINED" value="30.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:expectedType">
@@ -208,6 +283,9 @@
       <dailyData date="16-6-2018">
         <observation name="UNDEFINED" value="160.0" />
       </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="UNDEFINED" value="30.0" />
+      </dailyData>
     </factor>
     <factor id="categoricalFeature:kind">
       <dailyData date="15-6-2018">
@@ -216,6 +294,9 @@
       <dailyData date="16-6-2018">
         <observation name="UNDEFINED" value="160.0" />
       </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="UNDEFINED" value="30.0" />
+      </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_groovyReferenceListWeigher">
       <dailyData date="15-6-2018">
@@ -223,6 +304,9 @@
       </dailyData>
       <dailyData date="16-6-2018">
         <observation name="unknown" value="160.0" />
+      </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="unknown" value="30.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_javaInheritance">
@@ -234,6 +318,10 @@
         <observation name="false" value="24.0" />
         <observation name="null" value="136.0" />
       </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="false" value="4.0" />
+        <observation name="null" value="26.0" />
+      </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_referenceList">
       <dailyData date="15-6-2018">
@@ -242,6 +330,9 @@
       <dailyData date="16-6-2018">
         <observation name="unknown" value="160.0" />
       </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="unknown" value="30.0" />
+      </dailyData>
     </factor>
     <factor id="categoricalFeature:recursion">
       <dailyData date="15-6-2018">
@@ -249,6 +340,9 @@
       </dailyData>
       <dailyData date="16-6-2018">
         <observation name="UNDEFINED" value="160.0" />
+      </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="UNDEFINED" value="30.0" />
       </dailyData>
     </factor>
     <factor id="completionFinishedType">
@@ -262,6 +356,11 @@
         <observation name="explicitSelect" value="129.0" />
         <observation name="typedSelect" value="31.0" />
       </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="cancelled" value="172.0" />
+        <observation name="explicitSelect" value="26.0" />
+        <observation name="typedSelect" value="4.0" />
+      </dailyData>
     </factor>
     <factor id="completionType">
       <dailyData date="15-6-2018">
@@ -270,6 +369,9 @@
       <dailyData date="16-6-2018">
         <observation name="BASIC" value="204.0" />
       </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="BASIC" value="42.0" />
+      </dailyData>
     </factor>
     <factor id="completionUsage">
       <dailyData date="15-6-2018">
@@ -277,6 +379,9 @@
       </dailyData>
       <dailyData date="16-6-2018">
         <observation name="count" value="907.0" />
+      </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="count" value="202.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:explicitProximity">
@@ -290,6 +395,13 @@
       <dailyData date="16-6-2018">
         <observation name="average" value="0.0" />
         <observation name="count" value="319.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="59.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -310,6 +422,13 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
       </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="59.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:mostUsed">
       <dailyData date="15-6-2018">
@@ -318,6 +437,9 @@
       <dailyData date="16-6-2018">
         <observation name="UNDEFINED" value="160.0" />
       </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="UNDEFINED" value="30.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:nameEnd">
       <dailyData date="15-6-2018">
@@ -325,6 +447,9 @@
       </dailyData>
       <dailyData date="16-6-2018">
         <observation name="UNDEFINED" value="160.0" />
+      </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="UNDEFINED" value="30.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:position">
@@ -342,6 +467,13 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.004467" />
       </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="average" value="0.033898" />
+        <observation name="count" value="59.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.017267" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:prefix">
       <dailyData date="15-6-2018">
@@ -358,6 +490,13 @@
         <observation name="min" value="-1153.0" />
         <observation name="variance" value="292596.721126" />
       </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="average" value="-410.20339" />
+        <observation name="count" value="59.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="-1153.0" />
+        <observation name="variance" value="232104.819668" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:priority">
       <dailyData date="15-6-2018">
@@ -370,6 +509,13 @@
       <dailyData date="16-6-2018">
         <observation name="average" value="0.0" />
         <observation name="count" value="319.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="59.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -390,6 +536,13 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="716.203169" />
       </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="59.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:prox_knownElement">
       <dailyData date="15-6-2018">
@@ -402,6 +555,13 @@
       <dailyData date="16-6-2018">
         <observation name="average" value="0.0" />
         <observation name="count" value="319.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="59.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -422,6 +582,13 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.040895" />
       </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="59.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:prox_samePsiMember">
       <dailyData date="15-6-2018">
@@ -438,6 +605,13 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.024671" />
       </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="59.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:query_length">
       <dailyData date="15-6-2018">
@@ -450,6 +624,13 @@
       <dailyData date="16-6-2018">
         <observation name="average" value="0.0" />
         <observation name="count" value="319.0" />
+        <observation name="max" value="0.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="average" value="0.0" />
+        <observation name="count" value="59.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -470,6 +651,13 @@
         <observation name="min" value="3.0" />
         <observation name="variance" value="5.035388" />
       </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="average" value="7.779661" />
+        <observation name="count" value="59.0" />
+        <observation name="max" value="14.0" />
+        <observation name="min" value="3.0" />
+        <observation name="variance" value="6.083972" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:sameWords">
       <dailyData date="15-6-2018">
@@ -477,6 +665,9 @@
       </dailyData>
       <dailyData date="16-6-2018">
         <observation name="UNDEFINED" value="160.0" />
+      </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="UNDEFINED" value="30.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:shorter">
@@ -486,6 +677,9 @@
       <dailyData date="16-6-2018">
         <observation name="UNDEFINED" value="160.0" />
       </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="UNDEFINED" value="30.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:simple">
       <dailyData date="15-6-2018">
@@ -493,6 +687,9 @@
       </dailyData>
       <dailyData date="16-6-2018">
         <observation name="UNDEFINED" value="160.0" />
+      </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="UNDEFINED" value="30.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:sorter">
@@ -510,6 +707,13 @@
         <observation name="min" value="1.0" />
         <observation name="variance" value="0.0" />
       </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="average" value="1.0" />
+        <observation name="count" value="59.0" />
+        <observation name="max" value="1.0" />
+        <observation name="min" value="1.0" />
+        <observation name="variance" value="0.0" />
+      </dailyData>
     </factor>
     <factor id="doubleFeature:statics">
       <dailyData date="15-6-2018">
@@ -517,6 +721,9 @@
       </dailyData>
       <dailyData date="16-6-2018">
         <observation name="UNDEFINED" value="160.0" />
+      </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="UNDEFINED" value="30.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:stats">
@@ -534,6 +741,13 @@
         <observation name="min" value="0.0" />
         <observation name="variance" value="10035870.361504" />
       </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="average" value="677.932203" />
+        <observation name="count" value="59.0" />
+        <observation name="max" value="10000.0" />
+        <observation name="min" value="0.0" />
+        <observation name="variance" value="3186134.350639" />
+      </dailyData>
     </factor>
     <factor id="itemPosition">
       <dailyData date="15-6-2018">
@@ -541,6 +755,10 @@
       </dailyData>
       <dailyData date="16-6-2018">
         <observation name="0" value="128.0" />
+        <observation name="1" value="1.0" />
+      </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="0" value="25.0" />
         <observation name="1" value="1.0" />
       </dailyData>
     </factor>
@@ -552,6 +770,10 @@
       <dailyData date="16-6-2018">
         <observation name="total" value="40.0" />
         <observation name="withMnemonics" value="0.0" />
+      </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="total" value="8.0" />
+        <observation name="withMnemonics" value="1.0" />
       </dailyData>
     </factor>
     <factor id="prefixLength">
@@ -570,6 +792,14 @@
         <observation name="4" value="12.0" />
         <observation name="5" value="2.0" />
       </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="0" value="16.0" />
+        <observation name="1" value="2.0" />
+        <observation name="12" value="1.0" />
+        <observation name="2" value="3.0" />
+        <observation name="3" value="3.0" />
+        <observation name="4" value="1.0" />
+      </dailyData>
     </factor>
     <factor id="timeBetweenTyping">
       <dailyData date="15-6-2018">
@@ -579,6 +809,10 @@
       <dailyData date="16-6-2018">
         <observation name="average" value="276.503817" />
         <observation name="count" value="131.0" />
+      </dailyData>
+      <dailyData date="17-6-2018">
+        <observation name="average" value="493.277778" />
+        <observation name="count" value="18.0" />
       </dailyData>
     </factor>
   </component>
@@ -667,7 +901,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1529183106743" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1529233525845" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -691,7 +925,7 @@
       </Profilers>
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1529183106745" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1529233525846" />
       </method>
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -819,15 +1053,15 @@
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="sbt" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="right" id="Gradle" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="right" id="sbt" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Ant Build" order="9" weight="0.24980047" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="0" />
@@ -864,6 +1098,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/GeneratorWorkPulling.scala">
@@ -1073,10 +1311,47 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="421">
-            <caret line="99" column="6" lean-forward="true" selection-start-line="99" selection-end-line="99" selection-end-column="80" />
+          <first_editor relative-caret-position="475">
+            <caret line="112" column="5" selection-start-line="112" selection-end-line="112" selection-end-column="76" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/SocialMediaStalker.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="94" selection-start-line="8" selection-start-column="94" selection-end-line="8" selection-end-column="94" />
+          <folding>
+            <element signature="e#51#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/SocialMediaHandler.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#51#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/AggregatorPatternApp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/SocialMediaAggregator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="30" column="96" selection-start-line="30" selection-start-column="96" selection-end-line="30" selection-end-column="96" />
+          <folding>
+            <element signature="e#51#112#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
