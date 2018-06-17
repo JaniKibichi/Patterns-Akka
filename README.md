@@ -136,5 +136,10 @@ git checkout -b finite_state_machine countdownlatch_pattern
 ````
 sbt "runMain com.github.janikibichi.learnakka.patterns.FSMApp"
 ````
+<br><br>
+- Branch out to explore pausable actor patterns 
+````
+git checkout -b pausable_actor finite_state_machine 
+````
 
 

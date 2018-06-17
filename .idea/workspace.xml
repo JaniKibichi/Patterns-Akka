@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c416070-072f-4c1d-b28b-a23f3c5db229" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/FSMApp.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/FSMChangeSubscriber.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/TrafficLightsFSM.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/usage.statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/usage.statistics.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,8 +24,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="493">
-                <caret line="136" column="13" selection-start-line="136" selection-end-line="136" selection-end-column="62" />
+              <first_editor relative-caret-position="439">
+                <caret line="139" column="48" selection-start-line="139" selection-start-column="48" selection-end-line="139" selection-end-column="48" />
               </first_editor>
               <second_editor />
             </state>
@@ -380,7 +375,7 @@
         <observation name="typedSelect" value="31.0" />
       </dailyData>
       <dailyData date="17-6-2018">
-        <observation name="cancelled" value="343.0" />
+        <observation name="cancelled" value="384.0" />
         <observation name="explicitSelect" value="65.0" />
         <observation name="typedSelect" value="12.0" />
       </dailyData>
@@ -393,7 +388,7 @@
         <observation name="BASIC" value="204.0" />
       </dailyData>
       <dailyData date="17-6-2018">
-        <observation name="BASIC" value="93.0" />
+        <observation name="BASIC" value="94.0" />
       </dailyData>
     </factor>
     <factor id="completionUsage">
@@ -404,7 +399,7 @@
         <observation name="count" value="907.0" />
       </dailyData>
       <dailyData date="17-6-2018">
-        <observation name="count" value="420.0" />
+        <observation name="count" value="461.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:explicitProximity">
@@ -924,7 +919,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1529242009149" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1529242348831" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -948,7 +943,7 @@
       </Profilers>
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1529242009151" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1529242348831" />
       </method>
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -1422,8 +1417,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="493">
-            <caret line="136" column="13" selection-start-line="136" selection-end-line="136" selection-end-column="62" />
+          <first_editor relative-caret-position="439">
+            <caret line="139" column="48" selection-start-line="139" selection-start-column="48" selection-end-line="139" selection-end-column="48" />
           </first_editor>
           <second_editor />
         </state>
