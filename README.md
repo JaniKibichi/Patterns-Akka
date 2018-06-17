@@ -141,5 +141,12 @@ sbt "runMain com.github.janikibichi.learnakka.patterns.FSMApp"
 ````
 git checkout -b pausable_actor finite_state_machine 
 ````
+- Create the file:<b>com.github.janikibichi.learnakka.patterns.HardWorker.scala</b>
+- Create file:<b>com.github.janikibichi.learnakka.patterns.PausableActor.scala</b>
+- Create app to run pausable actor:<b>com.github.janikibichi.learnakka.patterns.PausableActorApp.scala</b>
+- Run the app to see the pausable Actor:
+````
+sbt "runMain com.github.janikibichi.learnakka.patterns.PausableActorApp"
+````
 
 
