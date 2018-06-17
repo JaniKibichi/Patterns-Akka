@@ -148,5 +148,17 @@ git checkout -b pausable_actor finite_state_machine
 ````
 sbt "runMain com.github.janikibichi.learnakka.patterns.PausableActorApp"
 ````
+<br><br>
+- Branch out to create enveloping actors
+````
+git checkout -b enveloping_actors pausable_actor
+````
+- Create a file:<b>com.github.janikibichi.learnakka.patterns.EnvelopeReceive.scala</b>
+- Create file:<b>com.github.janikibichi.learnakka.patterns.EnvelopingActor.scala</b>
+- Create file:<b>com.github.janikibichi.learnakka.patterns.EnvelopingActorApplication.scala</b>
+- [Run the App]()
+````
+sbt "runMain com.github.janikibichi.learnakka.patterns.EnvelopingActorApplication"
+````
 
 
