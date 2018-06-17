@@ -1,0 +1,22 @@
+package com.github.janikibichi.learnakka.patterns
+
+import akka.actor.{ActorSystem, Props}
+import akka.routing.RoundRobinPool
+
+object CountDownLatchApp extends App{
+  implicit val actorSystem = ActorSystem()
+  import actorSystem._
+  val routeesToSetUp = 2
+  val countDownLatch = CountDownLatch(routeesToSetUp)
+  actorSystem.actorOf(Props(classOf[CountDownLatchWorker],countDownLatch).withRouter(RoundRobinPool(routeesToSetUp)),"workers")
+
+  //Future based solution
+  countDownLatch.result.onSuccess{
+    case _ =>
+      log.info("Future completed successfully")
+  }
+
+  //Await based solution, you can do something else after latch is open
+  countDownLatch.await()
+  actorSystem.terminate()
+}

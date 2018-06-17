@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c416070-072f-4c1d-b28b-a23f3c5db229" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/AggregatorPatternApp.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/SocialMediaAggregator.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/SocialMediaHandler.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/SocialMediaStalker.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/CountDownLatch.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/CountDownLatchApp.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/CountDownLatchWorker.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/usage.statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/usage.statistics.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
@@ -26,12 +25,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="475">
-                <caret line="112" column="5" selection-start-line="112" selection-end-line="112" selection-end-column="76" />
+              <first_editor relative-caret-position="507">
+                <caret line="124" column="9" selection-start-line="124" selection-end-line="124" selection-end-column="72" />
               </first_editor>
               <second_editor />
             </state>
@@ -39,45 +38,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/SocialMediaStalker.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="94" selection-start-line="8" selection-start-column="94" selection-end-line="8" selection-end-column="94" />
-              <folding>
-                <element signature="e#51#116#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/AggregatorPatternApp.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/CountDownLatchApp.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="11" selection-start-column="11" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/SocialMediaAggregator.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="30" column="96" selection-start-line="30" selection-start-column="96" selection-end-line="30" selection-end-column="96" />
+              <caret column="8" selection-start-column="8" selection-end-column="49" />
               <folding>
-                <element signature="e#51#112#0" expanded="true" />
+                <element signature="e#51#89#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/SocialMediaHandler.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/CountDownLatchWorker.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="36">
+              <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/CountDownLatch.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="10" column="61" lean-forward="true" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
               <folding>
-                <element signature="e#51#90#0" expanded="true" />
+                <element signature="e#51#67#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,8 +120,11 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/SocialMediaAggregator.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/SocialMediaStalker.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/AggregatorPatternApp.scala" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/SocialMediaHandler.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/CountDownLatch.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/CountDownLatchWorker.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/CountDownLatchApp.scala" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -156,7 +146,7 @@
         <observation name="false" value="160.0" />
       </dailyData>
       <dailyData date="17-6-2018">
-        <observation name="false" value="30.0" />
+        <observation name="false" value="53.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:liftShorterClasses">
@@ -167,7 +157,7 @@
         <observation name="UNDEFINED" value="160.0" />
       </dailyData>
       <dailyData date="17-6-2018">
-        <observation name="UNDEFINED" value="30.0" />
+        <observation name="UNDEFINED" value="53.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:middleMatching">
@@ -178,7 +168,7 @@
         <observation name="false" value="160.0" />
       </dailyData>
       <dailyData date="17-6-2018">
-        <observation name="false" value="30.0" />
+        <observation name="false" value="53.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:nonGeneric">
@@ -189,7 +179,7 @@
         <observation name="UNDEFINED" value="160.0" />
       </dailyData>
       <dailyData date="17-6-2018">
-        <observation name="UNDEFINED" value="30.0" />
+        <observation name="UNDEFINED" value="53.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_inResolveScope">
@@ -202,8 +192,8 @@
         <observation name="true" value="26.0" />
       </dailyData>
       <dailyData date="17-6-2018">
-        <observation name="false" value="26.0" />
-        <observation name="true" value="4.0" />
+        <observation name="false" value="47.0" />
+        <observation name="true" value="6.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_openedInEditor">
@@ -215,7 +205,7 @@
         <observation name="true" value="2.0" />
       </dailyData>
       <dailyData date="17-6-2018">
-        <observation name="false" value="30.0" />
+        <observation name="false" value="53.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameDirectory">
@@ -227,7 +217,7 @@
         <observation name="true" value="2.0" />
       </dailyData>
       <dailyData date="17-6-2018">
-        <observation name="false" value="30.0" />
+        <observation name="false" value="53.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameLogicalRoot">
@@ -239,7 +229,7 @@
         <observation name="true" value="2.0" />
       </dailyData>
       <dailyData date="17-6-2018">
-        <observation name="false" value="30.0" />
+        <observation name="false" value="53.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sdkOrLibrary">
@@ -250,7 +240,7 @@
         <observation name="false" value="160.0" />
       </dailyData>
       <dailyData date="17-6-2018">
-        <observation name="false" value="29.0" />
+        <observation name="false" value="52.0" />
         <observation name="true" value="1.0" />
       </dailyData>
     </factor>
@@ -262,7 +252,7 @@
         <observation name="false" value="160.0" />
       </dailyData>
       <dailyData date="17-6-2018">
-        <observation name="false" value="30.0" />
+        <observation name="false" value="53.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:accessible">
@@ -273,7 +263,7 @@
         <observation name="UNDEFINED" value="160.0" />
       </dailyData>
       <dailyData date="17-6-2018">
-        <observation name="UNDEFINED" value="30.0" />
+        <observation name="UNDEFINED" value="53.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:expectedType">
@@ -284,7 +274,7 @@
         <observation name="UNDEFINED" value="160.0" />
       </dailyData>
       <dailyData date="17-6-2018">
-        <observation name="UNDEFINED" value="30.0" />
+        <observation name="UNDEFINED" value="53.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:kind">
@@ -295,7 +285,7 @@
         <observation name="UNDEFINED" value="160.0" />
       </dailyData>
       <dailyData date="17-6-2018">
-        <observation name="UNDEFINED" value="30.0" />
+        <observation name="UNDEFINED" value="53.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_groovyReferenceListWeigher">
@@ -306,7 +296,7 @@
         <observation name="unknown" value="160.0" />
       </dailyData>
       <dailyData date="17-6-2018">
-        <observation name="unknown" value="30.0" />
+        <observation name="unknown" value="53.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_javaInheritance">
@@ -319,8 +309,8 @@
         <observation name="null" value="136.0" />
       </dailyData>
       <dailyData date="17-6-2018">
-        <observation name="false" value="4.0" />
-        <observation name="null" value="26.0" />
+        <observation name="false" value="6.0" />
+        <observation name="null" value="47.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_referenceList">
@@ -331,7 +321,7 @@
         <observation name="unknown" value="160.0" />
       </dailyData>
       <dailyData date="17-6-2018">
-        <observation name="unknown" value="30.0" />
+        <observation name="unknown" value="53.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:recursion">
@@ -342,7 +332,7 @@
         <observation name="UNDEFINED" value="160.0" />
       </dailyData>
       <dailyData date="17-6-2018">
-        <observation name="UNDEFINED" value="30.0" />
+        <observation name="UNDEFINED" value="53.0" />
       </dailyData>
     </factor>
     <factor id="completionFinishedType">
@@ -357,9 +347,9 @@
         <observation name="typedSelect" value="31.0" />
       </dailyData>
       <dailyData date="17-6-2018">
-        <observation name="cancelled" value="172.0" />
-        <observation name="explicitSelect" value="26.0" />
-        <observation name="typedSelect" value="4.0" />
+        <observation name="cancelled" value="260.0" />
+        <observation name="explicitSelect" value="46.0" />
+        <observation name="typedSelect" value="7.0" />
       </dailyData>
     </factor>
     <factor id="completionType">
@@ -370,7 +360,7 @@
         <observation name="BASIC" value="204.0" />
       </dailyData>
       <dailyData date="17-6-2018">
-        <observation name="BASIC" value="42.0" />
+        <observation name="BASIC" value="67.0" />
       </dailyData>
     </factor>
     <factor id="completionUsage">
@@ -381,7 +371,7 @@
         <observation name="count" value="907.0" />
       </dailyData>
       <dailyData date="17-6-2018">
-        <observation name="count" value="202.0" />
+        <observation name="count" value="313.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:explicitProximity">
@@ -401,7 +391,7 @@
       </dailyData>
       <dailyData date="17-6-2018">
         <observation name="average" value="0.0" />
-        <observation name="count" value="59.0" />
+        <observation name="count" value="105.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -424,7 +414,7 @@
       </dailyData>
       <dailyData date="17-6-2018">
         <observation name="average" value="0.0" />
-        <observation name="count" value="59.0" />
+        <observation name="count" value="105.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -438,7 +428,7 @@
         <observation name="UNDEFINED" value="160.0" />
       </dailyData>
       <dailyData date="17-6-2018">
-        <observation name="UNDEFINED" value="30.0" />
+        <observation name="UNDEFINED" value="53.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:nameEnd">
@@ -449,7 +439,7 @@
         <observation name="UNDEFINED" value="160.0" />
       </dailyData>
       <dailyData date="17-6-2018">
-        <observation name="UNDEFINED" value="30.0" />
+        <observation name="UNDEFINED" value="53.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:position">
@@ -468,11 +458,11 @@
         <observation name="variance" value="0.004467" />
       </dailyData>
       <dailyData date="17-6-2018">
-        <observation name="average" value="0.033898" />
-        <observation name="count" value="59.0" />
+        <observation name="average" value="0.019048" />
+        <observation name="count" value="105.0" />
         <observation name="max" value="1.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="0.017267" />
+        <observation name="variance" value="0.013131" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prefix">
@@ -491,11 +481,11 @@
         <observation name="variance" value="292596.721126" />
       </dailyData>
       <dailyData date="17-6-2018">
-        <observation name="average" value="-410.20339" />
-        <observation name="count" value="59.0" />
+        <observation name="average" value="-406.095238" />
+        <observation name="count" value="105.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="-1153.0" />
-        <observation name="variance" value="232104.819668" />
+        <observation name="variance" value="249113.94014" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:priority">
@@ -515,7 +505,7 @@
       </dailyData>
       <dailyData date="17-6-2018">
         <observation name="average" value="0.0" />
-        <observation name="count" value="59.0" />
+        <observation name="count" value="105.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -538,7 +528,7 @@
       </dailyData>
       <dailyData date="17-6-2018">
         <observation name="average" value="0.0" />
-        <observation name="count" value="59.0" />
+        <observation name="count" value="105.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -561,7 +551,7 @@
       </dailyData>
       <dailyData date="17-6-2018">
         <observation name="average" value="0.0" />
-        <observation name="count" value="59.0" />
+        <observation name="count" value="105.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -584,7 +574,7 @@
       </dailyData>
       <dailyData date="17-6-2018">
         <observation name="average" value="0.0" />
-        <observation name="count" value="59.0" />
+        <observation name="count" value="105.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -607,7 +597,7 @@
       </dailyData>
       <dailyData date="17-6-2018">
         <observation name="average" value="0.0" />
-        <observation name="count" value="59.0" />
+        <observation name="count" value="105.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -630,7 +620,7 @@
       </dailyData>
       <dailyData date="17-6-2018">
         <observation name="average" value="0.0" />
-        <observation name="count" value="59.0" />
+        <observation name="count" value="105.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -652,11 +642,11 @@
         <observation name="variance" value="5.035388" />
       </dailyData>
       <dailyData date="17-6-2018">
-        <observation name="average" value="7.779661" />
-        <observation name="count" value="59.0" />
+        <observation name="average" value="7.590476" />
+        <observation name="count" value="105.0" />
         <observation name="max" value="14.0" />
         <observation name="min" value="3.0" />
-        <observation name="variance" value="6.083972" />
+        <observation name="variance" value="5.959385" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:sameWords">
@@ -667,7 +657,7 @@
         <observation name="UNDEFINED" value="160.0" />
       </dailyData>
       <dailyData date="17-6-2018">
-        <observation name="UNDEFINED" value="30.0" />
+        <observation name="UNDEFINED" value="53.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:shorter">
@@ -678,7 +668,7 @@
         <observation name="UNDEFINED" value="160.0" />
       </dailyData>
       <dailyData date="17-6-2018">
-        <observation name="UNDEFINED" value="30.0" />
+        <observation name="UNDEFINED" value="53.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:simple">
@@ -689,7 +679,7 @@
         <observation name="UNDEFINED" value="160.0" />
       </dailyData>
       <dailyData date="17-6-2018">
-        <observation name="UNDEFINED" value="30.0" />
+        <observation name="UNDEFINED" value="53.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:sorter">
@@ -709,7 +699,7 @@
       </dailyData>
       <dailyData date="17-6-2018">
         <observation name="average" value="1.0" />
-        <observation name="count" value="59.0" />
+        <observation name="count" value="105.0" />
         <observation name="max" value="1.0" />
         <observation name="min" value="1.0" />
         <observation name="variance" value="0.0" />
@@ -723,7 +713,7 @@
         <observation name="UNDEFINED" value="160.0" />
       </dailyData>
       <dailyData date="17-6-2018">
-        <observation name="UNDEFINED" value="30.0" />
+        <observation name="UNDEFINED" value="53.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:stats">
@@ -742,11 +732,11 @@
         <observation name="variance" value="10035870.361504" />
       </dailyData>
       <dailyData date="17-6-2018">
-        <observation name="average" value="677.932203" />
-        <observation name="count" value="59.0" />
+        <observation name="average" value="761.828571" />
+        <observation name="count" value="105.0" />
         <observation name="max" value="10000.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="3186134.350639" />
+        <observation name="variance" value="4362451.329143" />
       </dailyData>
     </factor>
     <factor id="itemPosition">
@@ -758,7 +748,7 @@
         <observation name="1" value="1.0" />
       </dailyData>
       <dailyData date="17-6-2018">
-        <observation name="0" value="25.0" />
+        <observation name="0" value="45.0" />
         <observation name="1" value="1.0" />
       </dailyData>
     </factor>
@@ -772,7 +762,7 @@
         <observation name="withMnemonics" value="0.0" />
       </dailyData>
       <dailyData date="17-6-2018">
-        <observation name="total" value="8.0" />
+        <observation name="total" value="14.0" />
         <observation name="withMnemonics" value="1.0" />
       </dailyData>
     </factor>
@@ -793,12 +783,12 @@
         <observation name="5" value="2.0" />
       </dailyData>
       <dailyData date="17-6-2018">
-        <observation name="0" value="16.0" />
-        <observation name="1" value="2.0" />
+        <observation name="0" value="28.0" />
+        <observation name="1" value="4.0" />
         <observation name="12" value="1.0" />
-        <observation name="2" value="3.0" />
-        <observation name="3" value="3.0" />
-        <observation name="4" value="1.0" />
+        <observation name="2" value="6.0" />
+        <observation name="3" value="5.0" />
+        <observation name="4" value="2.0" />
       </dailyData>
     </factor>
     <factor id="timeBetweenTyping">
@@ -811,8 +801,8 @@
         <observation name="count" value="131.0" />
       </dailyData>
       <dailyData date="17-6-2018">
-        <observation name="average" value="493.277778" />
-        <observation name="count" value="18.0" />
+        <observation name="average" value="506.086957" />
+        <observation name="count" value="23.0" />
       </dailyData>
     </factor>
   </component>
@@ -901,7 +891,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1529233525845" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1529238038398" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -925,7 +915,7 @@
       </Profilers>
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1529233525846" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1529238038399" />
       </method>
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -1308,13 +1298,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="475">
-            <caret line="112" column="5" selection-start-line="112" selection-end-line="112" selection-end-column="76" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/SocialMediaHandler.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#51#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/SocialMediaAggregator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="30" column="96" selection-start-line="30" selection-start-column="96" selection-end-line="30" selection-end-column="96" />
+          <folding>
+            <element signature="e#51#112#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1328,16 +1328,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/SocialMediaHandler.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#51#90#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/AggregatorPatternApp.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1345,13 +1335,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/SocialMediaAggregator.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/CountDownLatchWorker.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="30" column="96" selection-start-line="30" selection-start-column="96" selection-end-line="30" selection-end-column="96" />
+        <state relative-caret-position="36">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/CountDownLatch.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="10" column="61" lean-forward="true" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
           <folding>
-            <element signature="e#51#112#0" expanded="true" />
+            <element signature="e#51#67#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/patterns/CountDownLatchApp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="49" />
+          <folding>
+            <element signature="e#51#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="507">
+            <caret line="124" column="9" selection-start-line="124" selection-end-line="124" selection-end-column="72" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

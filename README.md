@@ -105,10 +105,22 @@ sbt "runMain com.github.janikibichi.learnakka.patterns.SmallestMailboxRouterApp"
 git checkout -b aggregator_pattern balance_workload_across_actors
 ````
 - Create file:<b>com.github.janikibichi.learnakka.patterns.SocialMediaHandler.scala<b/>
-- Create file: <b>com.github.janikibichi.learnakka.patterns.SocialMediaAggregator.scala</b>
+- Create file:<b>com.github.janikibichi.learnakka.patterns.SocialMediaAggregator.scala</b>
 - Create file:<b>com.github.janikibichi.learnakka.patterns.SocialMediaStalker.scala</b>
 - Create file:<b>com.github.janikibichi.learnakka.patterns.AggregatorPatternApp.scala</b>
 - Run the [aggregator pattern app]()
 ````
 sbt "runMain com.github.janikibichi.learnakka.patterns.AggregatorPatternApp"
+````
+<br><br>
+- Branch out to explore CountDownLatch pattern
+````
+git checkout -b countdownlatch_pattern aggregator_pattern
+````
+- Create file <b>com.github.janikibichi.learnakka.patterns.CountDownLatch.scala</b>
+- Create processing actor file: <b>com.github.janikibichi.learnakka.patterns.CountDownLatchWorker.scala</b>
+- Create App to run the pattern:<b>com.github.janikibichi.learnakka.patterns.CountDownLatchApp.scala</b>
+- [Run the app:]()
+````
+sbt "runMain com.github.janikibichi.learnakka.patterns.CountDownLatchApp"
 ````
