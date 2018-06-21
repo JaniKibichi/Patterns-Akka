@@ -4,7 +4,7 @@
 		module="patterns-build"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20180616221514"
+		publication="20180621133520"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>
